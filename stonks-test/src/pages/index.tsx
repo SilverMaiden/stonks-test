@@ -54,7 +54,7 @@ const Home = () => {
     } catch (error) {
       setIsLoading(false);
       // Handle the error here
-      console.error("Error fetching data:", error.message);
+     // console.error("Error fetching data:", error.message);
     }
   };
   const handleQueryChange = (e: React.ChangeEvent<HTMLInputElement>) => {
